@@ -64,7 +64,7 @@ h.AxesGrid.BackgroundAxes.YLabel.Interpreter = 'Latex';
 figure(4);
 plot(t, y);
 legend('$h$', 'Interpreter', 'latex')
-title('$Full$ $State$ $Feedback$ $control$ $without$ $Reference$ $Input$', 'Interpreter', 'latex')
+title('$Full$ $State$ $Feedback$ $Control$ $without$ $Reference$ $Input$', 'Interpreter', 'latex')
 xlabel('$Time(sec)$', 'Interpreter', 'latex')
 y = ylabel('$h(m)$', 'Interpreter', 'latex', 'rotation', 0);
 set(y, 'Units', 'Normalized', 'Position', [-0.08, 0.5]);
